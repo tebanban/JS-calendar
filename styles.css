@@ -19,7 +19,7 @@ body{
   .output li {
     display: block;
     float: left;
-    width: 25%;
+    width: 14.28%;
     border: 2px solid white;
     padding: 5px;
     height: 40px;
@@ -27,3 +27,14 @@ body{
     color: white;
   }
   
+  .days li {
+    display: block;
+    float: left;
+    text-align: center;
+    width: 14.28%;
+    border: 2px solid white;
+    padding: 5px;
+    height: 30px;
+    background-color: #f7f5fd;
+    color: #4A2DB6;
+  }
