@@ -9,7 +9,7 @@ select.addEventListener( 'change', ()=>{
   if (choice==='February') {
     days = 28
     
-  } else if(choice==='April'|| choice=='June' || choice==='August' || choice==='September' || choice==='November'){  
+  } else if(choice ==='April'|| choice=='June' || choice==='August' || choice==='September' || choice==='November'){  
     days = 30
   }
 
@@ -20,7 +20,7 @@ select.addEventListener( 'change', ()=>{
 function createCalendar(days, choice){
   list.innerHTML = '';
   h1.textContent= choice;
-  for (i=1; i < days; i++){
+  for (i=1; i <= days; i++){
     const listItem= document.createElement('li')
     listItem.textContent= i;
     list.appendChild(listItem)
